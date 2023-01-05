@@ -1,0 +1,17 @@
+body {
+ background-image: url("college.jpg");
+ background-repeat: no-repeat;
+  background-size:100%;
+}
+h1 {
+  color:center;
+text-align:left;
+font-family:courier;
+}
+h2 {
+  color: maroon;
+text-align:center;
+font-family:Courier New;
+}
+.div{
+}
