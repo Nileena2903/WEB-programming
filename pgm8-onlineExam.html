@@ -1,0 +1,47 @@
+<html>
+    <head>
+    <script>
+    function exam()
+    {
+    var m=0;
+    if(document.examForm.one.value=="b tag")
+    m=m+1;
+    if(document.examForm.two.value=="6")
+    m=m+1;
+    if(document.examForm.three.value=="HTML")
+    m=m+1;
+    alert("Thankyou  for taking the online exam \n Your score is:"+m+" out of 3");
+    }
+    </script>
+    </head>
+    <body bgcolor="#7ebee1">
+    <form name="examForm" onsubmit="return exam()" method="get">
+    <h1><u>ONLINE EXAMINATION</u></h1>
+    Enter your full name:<input type="text" name="name"/>
+    <p> 1) Which element is used for making any text bold?<br>
+    <input type="radio" name="one" value="p tag">p tag<br>
+    <input type="radio" name="one" value="i tag">i tag<br>
+    <input type="radio" name="one" value="b tag">b tag<br>
+    <input type="radio" name="one" value="h tag">h tag<br>
+    </p>
+    <p>2) How many heading tags are there in HTML? <br>
+    <input type="radio" name="two" value="2">2<br>
+    <input type="radio" name="two" value="3">3<br>
+    <input type="radio" name="two" value="5">5<br>
+    <input type="radio" name="two" value="6">6<br>
+    </p>
+    <p>
+    3) Which of the following is used to create webpage?<br>
+    <input type="radio" name="three" value="c"> c<br>
+    <input type="radio" name="three" value="HTML">HTML<br>
+    <input type="radio" name="three" value="Java">Java<br>
+    <input type="radio" name="three" value="Python">Python<br>
+    </p>
+    <p>
+    <center>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+    </center>
+    </p>
+    </body>
+    </html>
